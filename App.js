@@ -12,7 +12,9 @@ export default class App extends Component {
         <View style={styles.button}>
           <Button
             onPress={() =>
-              fetch('http://18.221.177.61:8080/api/click/new', {method: 'POST'})}
+              fetch('http://18.221.177.61:8080/api/clicks', {
+                method: 'POST'
+              })}
             color="#fff"
             title="PRESS ME"
             accessibilityLabel="Increment the click counter"
