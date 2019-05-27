@@ -1,4 +1,4 @@
-# Vala Demo React
+# Vertx - React Mobile App Demo
 
 ![App Screenshot](app-screenshot.png?raw=true "App Screenshot")
 
